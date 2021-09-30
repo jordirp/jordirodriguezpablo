@@ -14,11 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcom2');
 });
 
-get ('about', function(){
-
+Route::get('Hola', function () {
+    return view('Hola');
 });
+
+Route::get('app', function () {
+    return view('app');
+});
+
+Route::get('Laravelç', function () {
+    return view('Laravelç');
+});
+
+
+
 
 //Whatever
